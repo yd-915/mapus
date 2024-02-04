@@ -11,7 +11,7 @@
 <body style="margin:0px;">
   <div id="share">
     <div id="share-nav">
-      <span>Make cool maps w/ friends and share them!</span>
+      <span>Make custom maps w/ friends & colleagues and share them!</span>
       <img src="assets/close-button.svg" id="close-share">
     </div>
     <input value="https://coollink.com/haha" id="share-url" readonly="readonly">
@@ -89,6 +89,9 @@
       <div class="section-name">MAPWRLD</div>
      <div id="attribution">₿ <a href="https://palatable-plane-wgjjdtsnsdrpaseal5qa.wnext.app/apps/2sbSsDPq7TAeoJg9XNQzHayiLFQ5/pos" target="_blank">Paid Services</a> (Bitcoin)</div>
       <div id="attribution">💵 <a href="https://www.openstreetmap.org/copyright" target="_blank">Paid Services</a> (Fiat)</div>
+      <stripe-pricing-table pricing-table-id="prctbl_1OfwyyCRcNpMhr6BzId8smDO"
+publishable-key="pk_live_51Nfm1aCRcNpMhr6B9hjdHXbjuVCuBFO0f9xcZQSqFhiCGpc1k0PbKPaeUrt9aNz8PRYvKeJwbtQOatUjlkAWQEHV001NyfOqSC">
+</stripe-pricing-table>
     </div>
   </div>
   <div id="search-box">
@@ -164,6 +167,7 @@
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
   </script>
+  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
   <script src="leaflet.min.js"></script>
