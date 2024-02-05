@@ -192,6 +192,7 @@ body {
   padding: 18px;
 }
 .section-name {
+  margin-top: 10px;
   font-family: Inter;
   font-weight: 500;
   font-size: 13px;
